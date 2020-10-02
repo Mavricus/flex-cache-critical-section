@@ -1,0 +1,48 @@
+{
+  "name": "@flex-cache/critical-section",
+  "version": "1.0.0",
+  "description": "Node.js critical section Based on @flex-cache library",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest --config jestconfig.json",
+    "test:coverage": "jest --config jestconfig.json --collectCoverage true"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mavricus/flex-cache-critical-section.git"
+  },
+  "keywords": [
+    "criticalsection",
+    "flexcache"
+  ],
+  "files": [
+    "!spec/**/*",
+    "!node_modules",
+    "**/*.js",
+    "**/*.d.ts",
+    "LICENSE",
+    "README.md",
+    "package.json"
+  ],
+  "author": "Mavricus",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Mavricus/flex-cache-critical-section/issues"
+  },
+  "homepage": "https://github.com/Mavricus/flex-cache-critical-section#readme",
+  "dependencies": {
+    "@flex-cache/types": "^3.0.1",
+    "sinon": "^9.1.0",
+    "uuid": "^8.3.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.14",
+    "@types/sinon": "^9.0.7",
+    "@types/uuid": "^8.3.0",
+    "jest": "^26.4.2",
+    "ts-jest": "^26.4.1",
+    "typescript": "^4.0.3"
+  }
+}
